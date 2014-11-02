@@ -1,7 +1,28 @@
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
+
+To implement this program, you should folow these steps:
+1. After clone/download project, we have project source code in  "rails_app-master" folder.
+2. use terminal run command: 
+ $ cd [path]/rails_app-master
+ $ bundle exec rake db:migrate
+ $ rails s
+
+3. in web browser you copy these urls and click enter:
+	http://localhost:3000/users
+	http://localhost:3000/microposts
+
+Insert data and see what anything is special in my project.
+
+thank you!
+
+
+
+
 
 Things you may want to cover:
 
