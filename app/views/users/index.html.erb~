@@ -1,3 +1,11 @@
+<style>
+td{
+	padding:20px;
+}
+</style>
+
+
+
 <h1>Listing users</h1>
 <table border=1 >
   <thead>
@@ -27,9 +35,3 @@
 
 <%= link_to 'New User', new_user_path %>
 <%= link_to 'View Posts', microposts_path %>
-
-<style>
-td{
-	padding:20px;
-}
-</style>
